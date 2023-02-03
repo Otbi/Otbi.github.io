@@ -1,0 +1,172 @@
+@import "bourbon";
+
+body {
+	background: #eee !important;	
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+.
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+
+
+    
+}
+
+
+
+
+.boton{
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+          text-align:center;
+          text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    display:inline-block;
+          color: #FFF;
+          background: #7F8C8D;
+          padding: 7px 20px;
+          white-space: nowrap;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 100px;
+          margin: 10px 5px;
+          -webkit-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+ 
+.azul{
+background: #3498DB;
+box-shadow: 0px 5px 0px 0px #2980B9;
+}
+
+.azul:hover{
+background: #39a0e5;
+}
+
+.azul:active{
+box-shadow: 0px 2px 0px 0px #2980B9;
+}
+
+.verde{
+background: #2ECC71;
+box-shadow: 0px 5px 0px 0px #27AE60;
+}
+
+.verde:hover{
+background: #32db78;
+}
+
+.verde:active{
+box-shadow: 0px 2px 0px 0px #27AE60;
+}
+
+.rojo{
+background: #E74C3C;
+box-shadow: 0px 5px 0px 0px #C0392B;
+}
+
+.rojo:hover{
+background: #ff5242;
+}
+
+.rojo:active{
+box-shadow: 0px 2px 0px 0px #C0392B;
+}
+
+
+.demo-card-image.mdl-card {
+    width: 356px;
+    height: 226px;
+    background: url('https://legends.pokemon.com/assets/pokemon/pokemon_cyndaquil.png') center / cover;
+  }
+  .demo-card-image > .mdl-card__actions {
+    height: 52px;
+    padding: 18px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .demo-card-image__filename {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .demo-card-event.mdl-card {
+    width: 356px;
+    height: 226px;
+    background: #3E4EB8;
+  }
+  .demo-card-event > .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .demo-card-event > .mdl-card__title {
+    align-items: flex-start;
+  }
+  .demo-card-event > .mdl-card__title > h4 {
+    margin-top: 0;
+  }
+  .demo-card-event > .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+  }
+  .demo-card-event > .mdl-card__title,
+  .demo-card-event > .mdl-card__actions,
+  .demo-card-event > .mdl-card__actions > .mdl-button {
+    color: #fff;
+  }
+  
+  body {
+    padding: 20px;
+    background: #fafafa;
+    position: relative;
+  }
+
+
+
+
+
+
+
